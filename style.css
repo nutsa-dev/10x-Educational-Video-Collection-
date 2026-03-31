@@ -197,7 +197,12 @@ footer {
 @media (max-width: 768px) {
   .video-grid {
     grid-template-columns: 1fr; 
-    padding-bottom: 20px; 
+    padding: 30px 20px;
+  }
+
+  article {
+    max-width: 90%;
+    height: 180px;
   }
   
 
